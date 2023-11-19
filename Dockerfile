@@ -19,3 +19,5 @@ COPY --from=builder /app/example /etc/V2bX
 RUN  mv /etc/V2bX/config.json /etc/V2bX/config.json
 
 ENTRYPOINT [ "V2bX", "server"]
+
+# git tag test
